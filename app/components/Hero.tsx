@@ -13,9 +13,9 @@ const Hero = ({ buttonOnClick }: HeroProps) => {
             <p className="py-10 text-xl">
                 is an <span className="font-semibold text-secondary">AI Engineer</span> based in London, recent <span className="font-semibold text-secondary">Computer Science Graduate</span> from the University of Warwick and an avid developer.
             </p>
-            <button className="btn btn-primary" onClick={buttonOnClick} type="button">
+            <a className="btn btn-primary" onClick={buttonOnClick} type="button" href="#about">
               Learn more about me
-            </button>
+            </a>
             </div>
         </div>
   

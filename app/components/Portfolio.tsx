@@ -28,7 +28,7 @@ const Portfolio = () => {
             <Experience />
         </div>
 
-        <div className="relative rounded-3xl border border-base-200/70 bg-base-100/70 p-4 shadow-sm">
+        <div className="relative rounded-3xl border border-base-200/70 bg-base-100/70 p-5 shadow-sm">
           <Projects />
         </div>
       </div>
