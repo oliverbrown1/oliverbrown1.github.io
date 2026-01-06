@@ -53,13 +53,13 @@ const Education = () => {
                         }}
                     >
                         <div className="flex flex-row justify-between w-full">
-                            <span className="text-secondary text-sm lg:text-lg">
+                            <span className="text-secondary text-sm lg:text-md">
                               {ed.degree},{" "}
-                              <span className="text-base-content/70 text-sm lg:text-lg">
+                              <span className="text-base-content/70 text-sm lg:text-md">
                                 {ed.school}
                               </span>
                             </span>
-                            <span className="rounded-full border border-secondary/40 px-3 py-1 text-xs lg:text-mdfont-semibold text-secondary">
+                            <span className="rounded-full border border-secondary/40 px-3 py-1 text-xs lg:text-md font-semibold text-secondary">
                             {ed.date_start} - {ed.date_end}
                             </span>
                         </div>

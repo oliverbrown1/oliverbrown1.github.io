@@ -11,7 +11,7 @@ const Contact = () => {
           <p className="text-xs uppercase tracking-[0.4em] text-secondary">
             Contact
           </p>
-          <h2 className="text-2xl font-semibold text-primary-content">
+          <h2 className="text-xl font-semibold text-primary-content">
             Let me know about opportunities
           </h2>
         </div>
@@ -38,7 +38,7 @@ const Contact = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/oliver-brown-53067a25b/"
-            className="btn btn-outline h-14 rounded-2xl px-6 text-base font-semibold"
+            className="btn btn-outline h-14 rounded-2xl px-4 text-base font-semibold"
             target="_blank"
           >
             <svg

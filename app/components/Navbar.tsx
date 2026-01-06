@@ -51,12 +51,12 @@ const Navbar = ({ buttonOnClick }: NavbarProps) => {
     >
       {/* <header className="navbar fixed top-0 z-30 w-full bg-base-200 px-6 shadow-sm pt-3"> */}
         <div className="flex-1">
-          <span className="text-lg md:text-xl font-semibold tracking-wide text-secondary">
-            Oliver Brown
-          </span>
+          <a className="text-sm md:text-xl font-semibold tracking-wide text-secondary" href="/">
+            www.oliverb.work
+          </a>
         </div>
         <nav className="flex-none">
-          <ul className="menu menu-horizontal gap-2 text-md md:text-lg font-medium">
+          <ul className="menu menu-horizontal gap-2 text-md font-medium">
             <li>
                 <a href="#about" onClick={aboutNav} className={`hover:text-primary-focus ${activeTab === "about" ? "text-secondary font-bold" : ""}`}>
                 About

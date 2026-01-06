@@ -61,9 +61,9 @@ const Experience = () => {
                         }}
                     >   
                         <div className="flex flex-row justify-between w-full">
-                            <span className="text-secondary text-sm lg:text-lg">
+                            <span className="text-secondary text-sm lg:text-md">
                               {exp.role}{" "}
-                              <span className="text-base-content/70 text-sm lg:text-lg">
+                              <span className="text-base-content/70 text-sm lg:text-md">
                                 @ {exp.company}
                               </span>
                             </span>

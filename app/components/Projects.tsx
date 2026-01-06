@@ -7,7 +7,6 @@ import graphic_2 from "../../assets/taskmanager.png";
 import graphic_3 from "../../assets/connect4.png";
 import graphic_4 from "../../assets/PortfolioWebsite.png";
 import graphic_5 from "../../assets/NewsAnalysis.png";
-import graphic_6 from "../../assets/passmanager.png";
 
 type CarouselCardData = {
   id: string;
@@ -141,7 +140,7 @@ const Projects = () => {
       currentIndexRef.current =
         (currentIndexRef.current + 1) % projectSlides.length;
       scrollToIndex(currentIndexRef.current);
-    }, 5000);
+    }, 4000);
 
     return () => {
       if (intervalRef.current !== null) {
@@ -189,9 +188,9 @@ const Projects = () => {
                 />
               </figure>
               <div className={`card-body justify-center text-center items-center text-lg gap-3 ${card.text_colour}`}>
-                <h2 className="card-title text-xl">{card.name}</h2>
+                <h2 className="card-title text-lg">{card.name}</h2>
                 <div className="flex w-full flex-col items-center gap-3">
-                  <p className="max-w-2xl text-center leading-relaxed text-lg invisible md:visible">
+                  <p className="max-w-2xl text-center leading-relaxed text-md invisible md:visible">
                     {card.description}
                   </p>
                   <div className="flex flex-row flex-wrap items-center justify-center gap-1.5 text-sm">

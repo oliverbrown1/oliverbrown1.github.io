@@ -28,7 +28,7 @@ const About = ({ aboutMePressed, toggleAboutMe }: AboutProps) => {
               aboutMePressed ? "max-h-[520px] opacity-100 mr-5 ml-5" : "max-h-0 opacity-0"
             }`}
           >
-            <div className="p-2 md:p-10 text-md md:text-lg text-base-content/80">
+            <div className="p-2 md:p-10 text-md text-base-content/80">
                 <p className="text-xs uppercase tracking-[0.4em] text-secondary py-3">
                     About
                 </p>

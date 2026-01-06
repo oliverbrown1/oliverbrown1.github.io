@@ -22,7 +22,7 @@ export default function Home() {
     <div className="min-h-screen bg-base-100 text-base-content relative overflow-hidden">
       <Navbar buttonOnClick={enableAboutMe} />
 
-      <div className="absolute inset-x-0 top-16 -z-10 h-[calc(100vh-4rem)] w-full">
+      <div className="absolute inset-x-0 top-16 -z-10 h-[calc(100vh-4rem)] w-full opacity-90">
         <Threads
           amplitude={1}
           distance={0}
